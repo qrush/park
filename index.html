@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Location - Lexington St</title>
+    
+    <!-- Open Graph meta tags for iMessage preview -->
+    <meta property="og:title" content="Parking Location">
+    <meta property="og:description" content="Please park on the right side of the driveway">
+    <meta property="og:image" content="park.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Parking Location">
+    <meta name="twitter:description" content="Please park on the right side of the driveway">
+    <meta name="twitter:image" content="park.jpg">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .image-container {
+            position: relative;
+            width: 100%;
+        }
+        
+        .map-image {
+            width: 100%;
+            display: block;
+        }
+        
+        .instructions {
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .instructions p {
+            font-size: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 600px) {
+            .instructions p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="park.jpg" alt="Parking Location Map" class="map-image">
+        </div>
+        <div class="instructions">
+            <p>Please park on the right side of the driveway, as close to the house as possible! <3</p>
+        </div>
+    </div>
+</body>
+</html>
